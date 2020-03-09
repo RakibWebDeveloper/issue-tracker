@@ -129,6 +129,8 @@ const fetchIssues = () => {
 
 // })
 
+// confirmation
+
 function confirmationMsg(msg) {
   return confirm(`Are you sure to ${msg} this issue?`)
 }
